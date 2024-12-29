@@ -1,0 +1,495 @@
+/*
+     Colours Used:
+
+        pale peach: #ffeae4
+        darker peach: #f3c6ba
+        yellow: #ffd7a8
+        orange: #ff9b75
+        reddish orange: #f44336
+        darkest orange: #8E0505
+*/
+
+
+
+#outer {
+  background: linear-gradient(90deg, rgba(255,155,117,.9) 0%, rgba(255,215,168,1) 100%);
+}
+
+#header .primary {
+  background: #ff9b75;
+  background-repeat: repeat;
+  box-shadow: none;
+}
+
+#search .button,
+#header .logo {
+  display: none;
+}
+
+#header .heading a,
+#greeting img.icon {
+  visibility: hidden;
+}
+
+#header #search .text {
+  background: #ffeae4;
+  border: none;
+  box-shadow: none;
+  width: 7em;
+}
+
+#header h1.heading a::before {
+  content: " 🍑🍑🍑";
+  visibility: visible;
+}
+
+.splash .module h3 {
+  border-bottom: none;
+  color: #f44336;
+}
+
+#header .menu,
+#small_login {
+  background: #ffeae4;
+  box-shadow: none;
+  width: 20em;
+}
+
+#greeting .user > li a {
+  color: #8E0505;
+}
+
+#header .menu li,
+.splash .news li {
+  border-bottom: none;
+}
+
+#header .actions a:hover,
+#header .dropdown:hover a.dropdown-toggle,
+#header .menu li a {
+  background: none;
+  color: #f44336 !important;
+}
+
+#footer {
+  background: #ff9b75;
+}
+
+#main {
+  color: #8E0505;
+}
+
+#main a {
+  color: #f44336;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #ffeae4;
+  border: 1px solid #ffeae4;
+  border-radius: 5px;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  background: #f44336;
+  border: 1px solid #f44336;
+  border-radius: 5px;
+  color: #fff !important;
+}
+
+.resp-sharing-button--twitter,
+a.resp-sharing-button__link {
+  color: #fff !important;
+}
+
+.listbox,
+fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+.dynamic form {
+  background: url("https://image.freepik.com/free-vector/vector-seamless-pattern-with-peaches_1015-1760.jpg");
+  background-repeat: repeat;
+  border: 4px solid #fff;
+  box-shadow: none;
+}
+
+form dl {
+  background: #ffeae4;
+  border: 2px solid #fff;
+  box-shadow: none;
+}
+
+input,
+textarea {
+  border: 1px solid #f44336;
+  box-shadow: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background: #ffeae4;
+}
+
+form dt {
+  border-bottom: 1px solid #fff;
+}
+
+form dd.required {
+  color: #8E0505;
+}
+
+.LV_invalid {
+  background: #ffd7a8;
+  border: 1px solid #fff;
+  color: #f44336;
+  box-shadow: none;
+}
+
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active {
+  border: 1px solid #8E0505;
+}
+
+.autocomplete div.dropdown ul {
+  background: #fff;
+  border: 1px solid #f44336;
+  color: #f44336;
+  box-shadow: none;
+}
+
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected {
+  background: #f44336;
+  color: #fff;
+}
+
+.required .autocomplete,
+.autocomplete .notice {
+  color: #f44336;
+}
+
+.ui-sortable li {
+  background: #ffd7a8;
+  border: 2px solid #fff;
+  box-shadow: none;
+}
+
+.ui-sortable li:hover {
+  background: #ff9b75;
+  border: 2px solid #fff;
+  box-shadow: none;
+}
+
+.ui-draggable form {
+  box-shadow: none;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+muted.notice,
+form.verbose legend,
+.verbose form legend,
+span.question,
+span.symbol,
+select {
+  background: #ffeae4;
+  color: #f44336;
+  border: 2px solid #f44336;
+  box-shadow: none !important;
+}
+
+#modal {
+  background: #ffeae4;
+  border: 4px solid #ff9b75;
+  box-shadow: none;
+}
+
+#modal .content {
+  border-bottom: none;
+}
+
+.actions a:visited,
+.action:visited,
+.action a:link,
+.action a:visited {
+  color: #f3c6ba;
+}
+
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  color: #f44336;
+  border-top: none;
+  border-left: none;
+  box-shadow: none;
+  background: #f3c6ba;
+}
+
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+.current a:visited {
+  color: #fff;
+  background: #ff9b75;
+  border-color: #fff;
+  box-shadow: none;
+}
+
+.actions label.disabled {
+  background: #ff9b75;
+}
+
+.actions .disabled select {
+  color: #fff;
+  border-color: #fff;
+}
+
+.delete a,
+span.delete {
+  color: #f44336;
+  box-shadow: none;
+}
+
+.secondary {
+  background: #fff;
+  border: 2px solid #f44336;
+  box-shadow: none;
+}
+
+.own,
+.draft,
+.draft .wrapper,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  background: #ffeae4 !important;
+}
+
+.draft {
+  border: 2px dashed #ff9b75;
+}
+
+span.unread,
+.replied,
+span.claimed,
+.actions span.defaulted {
+  background: #f3c6ba;
+  color: #f44336;
+  border: 1px solid #fff;
+  border-bottom: none;
+}
+
+.actions span.defaulted {
+  color: #8E0505;
+}
+
+.draggable,
+.droppable,
+span.requested,
+.nominations .rejected {
+  color: #8E0505;
+}
+
+.nominations .approved {
+  background: #ffeae4;
+}
+
+.nominations .rejected {
+  background: #f3c6ba;
+}
+
+span.offered.requested {
+  color: #ffeae4;
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+dl.index dd {
+  background: #f3c6ba;
+}
+
+p.kudos {
+  background: url("https://64.media.tumblr.com/14dd2ee05dbcc111dab41d6206985fe8/b1eb33fb168e0088-4b/s1280x1920/8fabca965895c42bae4d746506ffc96324eb2fd5.png");
+  background-repeat: no-repeat;
+}
+
+.statistics .index li:nth-of-type(even) {
+  background: #f3c6ba;
+}
+
+fieldset fieldset.listbox {
+  background: #ffeae4;
+  border: 2px solid #ff9b75;
+  box-shadow: none;
+}
+
+.listbox>.heading,
+.listbox .heading a:visited {
+  color: #f44336;
+}
+
+.listbox .index {
+  background: #ffeae4;
+  box-shadow: none;
+}
+
+dl.meta {
+  border: 2px solid #f44336;
+  background: #ffeae4;
+}
+
+.actions a,
+.actions a,
+.action,
+input[type="submit"],
+button,
+.actions label,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions input,
+input[type=submit],
+button,
+.actions label {
+  background: #ffeae4;
+  border: 1px solid #f44336;
+  text-shadow: none;
+  color: #f44336;
+}
+
+.current,
+#dashboard .current {
+  background: #f44336;
+  border: 1px solid #fff;
+  text-shadow: none;
+  color: #fff;
+}
+
+#dashboard.own {
+  border-top: none;
+  border-bottom: none;
+}
+
+#dashboard a {
+  color: #f44336 !important;
+}
+
+#dashboard a:hover {
+  background: #ff9b75;
+}
+
+label {
+  color: #f44336;
+}
+
+li.blurb,
+fieldset ul {
+  background: #ffeae4 !important;
+  border: 2px solid #fff;
+}
+
+#header h2.collections,
+.reading h4.viewed,
+dl.index {
+  background: #ffeae4;
+  color: #f44336;
+}
+
+.comment h4.byline {
+  background: #f3c6ba;
+  border-bottom: 2px solid #fff;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #ff9b75;
+}
+
+li.comment {
+  border: 2px solid #fff;
+  background: #f3c6ba;
+}
+
+li.comment ul.actions {
+  background: transparent !important;
+  border: none !important;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect,
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type,
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:first-of-type {
+  opacity: 50% !important;
+}
+
+h5.fandoms.heading a,
+.fandom .tag,
+.work .fandom a.tag {
+  font-variant: small-caps;
+}
+
+.warnings .tag,
+.work .warning a.tag {
+  background: #8E0505;
+  border: 1px solid #8E0505;
+  border-radius: 5px;
+  color: #fff !important;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.relationships .tag,
+.work .relationships a.tag {
+  background: #f44336;
+  border: 1px solid #f44336;
+  border-radius: 5px;
+  color: #fff !important;
+  font-weight: bold;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.characters .tag,
+.work .characters a.tag {
+  background: #ff9b75;
+  border: 1px solid #ff9b75;
+  border-radius: 5px;
+  color: #fff !important;
+  font-weight: bold;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.freeforms .tag,
+.work .freeforms a.tag {
+  color: #f44336 !important;
+}
+
+.commas li:after {
+  content: none;
+}
+
+ul.tags {
+  line-height: 190%;
+}
