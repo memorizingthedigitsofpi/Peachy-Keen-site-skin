@@ -232,6 +232,7 @@ select {
 .actions a:hover,
 .actions input:hover,
 .actions a:focus,
+.actions button,
 .actions input:focus,
 label.action:hover,
 .action:hover,
